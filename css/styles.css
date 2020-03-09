@@ -1,0 +1,246 @@
+/* --- Default Styles --- */
+
+html { scroll-behavior: smooth; }
+
+body { overflow-x: hidden; font-family: 'Maven Pro', sans-serif; }
+
+h1 { font-size: 50px; }
+
+.button {
+  width: 250px;
+  height: 50px;
+  background-color: inherit;
+  border: 2px solid white;
+  font-size: 21px;
+  color: white;
+  font-weight: bold;
+}
+
+.button:hover {
+  transition: 0.3s;
+  color: #6F00DE;
+  background-color: rgba(255,255,255,0.8);
+  border: none;
+}
+
+.h1-underline { align-items: center;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                }
+.underline { width: 75px; height: 3px; }
+.black { background-color: #333333; }
+.white { background-color: #FAFAFA; }
+
+.modal.and.carousel {
+  position: fixed;
+}
+
+/* --- Landing Page --- */
+
+.Landing {
+  background-image: url(../images/travel/widetemple.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: backgroundslide 20s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  height: 100vh;
+ }
+ .Landing section {
+   height: 100vh;
+   background-color: rgba(0,0,0,0.3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    }
+.Landing section .landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 275px;
+   }
+
+.Landing .landing-logo { position: absolute; }
+.Landing .landing-logo img { height: 225px; width: 90px; opacity: 0.6; }
+.Landing .headings h1 {
+   color: #FAFAFA;
+   text-align: center;
+   font-size: 60px;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+.Landing .headings .name { display: flex; justify-content: space-between; letter-spacing: 8px;  }
+.Landing i { color: #FAFAFA; }
+.Landing i:hover, .Landing i:active { transition: 0.3s; color: #FF00FF; }
+.Landing .continue { position: absolute; top: 90%; }
+
+
+ /* --- Navbar --- */
+
+.navbar {
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 6px -6px black;
+  font-size: 16px;
+  }
+.navbar img { margin-top: -10px; }
+.navbar-inverse .navbar-nav>li>a:hover { color: #6F00DE; }
+
+/* --- Gallery --- */
+
+.Gallery h1 { color: #FAFAFA; margin-top: 75px; }
+
+.Gallery .travel {
+            background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/travel/bali_background.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 95vh;
+            text-align: center;
+          }
+.Gallery .portraits {
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../images/portraits/solcar.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    text-align: center;
+          }
+.Gallery .weddings {
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../images/weddings/flowers.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    text-align: center;
+        }
+.Gallery .travel-button { margin-top: 55vh; }
+.Gallery .portraits-button { margin-top: 80vh; }
+
+/* --- About --- */
+
+.About { height: 110vh; }
+.about-background {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/Chris_Background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.about-container {
+    position: absolute;
+    left: 16%;
+    width: 1180px;
+  }
+.about-heading { width: 33%; }
+.About h1 { color: #FAFAFA; margin-top: 75px; }
+.about-text {
+    width: 36%;
+    font-size: 16px;
+    color: #F5F5F5;
+    margin-top: 25px;
+}
+.text-overflow { width: 200%; }
+.about-img {
+    height: 425px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    position: absolute;
+    top: 22%;
+    left: 38%;
+}
+.background-image-one { padding: 0; margin: 0; width: 48%; height: 100%; }
+.background-image-two { padding: 0; margin: 0; width: 52%; height: 100%; }
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+}
+
+
+/* --- Pricing --- */
+.Pricing h1 { margin-top: 75px; }
+.Pricing .pricing-first-half { background-color: #E5E5E5; height: 80vh; }
+.Pricing .pricing-second-half { background-color: #2D2D2D; text-align: center; }
+.Pricing .standard h4 { font-size: 27px; margin-top: 25px; }
+.Pricing .standard h5 { font-size: 24px; margin-top: 20px; margin-bottom: 20px; }
+.Pricing .gold h4 { font-size: 27px; color: #A5882A; margin-top: 25px; }
+.Pricing .gold h5 { font-size: 24px; margin-top: 20px; margin-bottom: 20px; color: #A5882A; }
+.Pricing .deluxe h4 { font-size: 27px; color: #4B0097; margin-top: 25px; }
+.Pricing .deluxe h5 { font-size: 24px; margin-top: 20px; margin-bottom: 20px; color: #4B0097; }
+
+.Pricing .package { padding: 10px; margin: 45px 8px 0px 5px; background-color: #fff; width: 32%; text-align: center; }
+.Pricing .package ul { list-style: none; padding-inline-start: 0; margin-top: 45px; }
+.Pricing .package ul li { font-size: 18px;
+                          padding: 20px 0px 20px 0px;
+                          border-top: 1px solid #EEEEEE;
+                          margin: 0 25px 0 25px;}
+
+
+.Pricing .editing-container { text-align: left; }
+.Pricing .editing-container h4 { font-size: 25px; color: #FAFAFA; margin-bottom: 15px; }
+.Pricing .slider-box {
+  text-align: center;
+  width: 100%;
+  background-color: inherit;
+  border: 2px solid #FAFAFA;
+  padding: 2% 0 2% 0;
+  margin-bottom: 75px;
+}
+.smallscreen { display: none; }
+/*.Pricing img { width: 95%; border: 1px solid #FAFAFA; } */
+
+/* --- Contact --- */
+
+.Contact {  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/travel/treeface.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 150vh;
+            text-align: center;
+          }
+.Contact h1 { color: #fff; margin-top: 75px; }
+.Contact .friendly-statement { font-size: 20px; color: #FAFAFA; margin: -15px 0 15px 0; }
+
+.Contact section { margin: 15px 0 15px 0; }
+.Contact input, .Contact textarea { background-color: rgb(225,225,225); color: #333333; }
+.Contact .contact-container { margin: 40px 25px 0 25px; }
+.Contact .contact-boxes { padding: 0 20% 0 20%;  }
+.Contact .contact-btn { margin: 25px; font-weight: normal; }
+.Contact .contact-btn:hover { font-weight: bold; }
+
+/* --- Footer --- */
+footer { text-align: center; background-color: inherit; margin-top: 25px; }
+footer .info { padding: 0px 10px 50px 10px; margin: 0px 100px 0 100px; border-top: 1px solid #fff;  }
+footer .info i { color: #FAFAFA; }
+footer .info i:hover { cursor: pointer; transition: 0.3s; color: #FF00FF; }
+footer h5 { font-size: 17px; color: #FAFAFA; }
+footer .return { margin: 10px 0 25px 0; }
+footer .return h5 { font-size: 16px; }
+footer .copy { font-size: 18px; margin-top: 50px; }
+footer .creator { font-size: 18px; margin-top: 15px; }
+footer .creator a { color: #FAFAFA; text-decoration: underline; }
+footer .creator a:hover { color: #FF00FF; transition: 0.3s; text-decoration: none; }
+
+@keyframes backgroundslide {
+  0%, 100% {   background-image: url(../images/travel/widetemple.jpg); }
+  25% {   background-image: url(../images/weddings/men.jpg); }
+  50% {   background-image: url(../images/travel/pondwide.jpg); }
+  75% {   background-image: url(../images/travel/treeface.jpg); }
+}

@@ -1,0 +1,575 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/modals.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <title>Chris Stair Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+  </head>
+  <body>
+
+    <!--Navbar-->
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="navcontainer container">
+        <div class="navbar-header navbar-left">
+          <a class="navbar-brand" href="#Landing"><img height="40" width="40" src="images/logo.jpg"></a>
+          <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#Gallery">GALLERY</a></li>
+            <li><a href="#About">ABOUT</a></li>
+            <li><a href="#Pricing">PRICING</a></li>
+            <li><a href="#Contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Landing -->
+    <div class="Landing" id="Landing">
+      <section class="col-lg-12 col-md-12">
+        <div class="landing-container">
+          <div class="landing-logo">
+            <img class="C" src="images/C.png">
+            <img class="S" src="images/S.png">
+          </div>
+          <div class="headings">
+            <div class="name">
+              <h1>CHRIS</h1><h1>STAIR</h1>
+            </div>
+            <h1>PHOTOGRAPHY</h1>
+          </div>
+        </div>
+        <a href="#Gallery"><button class="landing-button button " type="button">GALLERY</button></a>
+        <div class="continue">
+          <a href="#About"><i class="fa fa-chevron-down fa-3x"></i></a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Gallery -->
+    <div class="Gallery" id="Gallery">
+      <div class="travel">
+        <div class="h1-underline">
+          <h1>GALLERY</h1>
+          <div class="underline white"></div>
+        </div>
+        <button class="travel-button button" data-toggle="modal" data-target=".travel-pics" >TRAVEL</button>
+      </div>
+
+      <div class="portraits">
+        <button class="portraits-button button" data-toggle="modal" data-target=".portraits-pics">PORTRAITS</button>
+      </div>
+
+      <div class="weddings">
+        <button class="portraits-button button" data-toggle="modal" data-target=".weddings-pics">WEDDINGS</button>
+      </div>
+
+    </div>
+
+    <!-- About -->
+    <div class="About" id="About">
+      <section class="about-background">
+        <div class="about-container container">
+          <div class="row">
+            <div class="about-heading h1-underline">
+              <h1>ABOUT</h1>
+              <div class="underline white"></div>
+            </div>
+            <div class="about-text">
+              <p> Mauris ut placerat purus, quis facilisis quam.
+              Quisque ac imperdiet justo. Quisque vel tellus
+              hendrerit, blandit felis eget, pretium massa.</p>
+              <br>
+              <p> Gam et egestas nulla. Vivamus aliquam, est
+              eu ultrices tempus, nibh sapien accumsan
+              ipsum, ut tristique.</p>
+              <br>
+              <p> Ulputate ex id urna condimentum
+              vestibulum. Phasellus at consectetur dui.</p>
+              <br>
+              <p> Endisse et tincidunt velit, eu maximus est.
+              Curabitur sit amet tortor a erat blandit accumsan.
+              Nam ac nulla vel ante ultricies tincidunt at ac
+              velit.</p>
+              <br>
+              <p> Endisse et tincidunt velit, eu maximus est.
+              Curabitur sit amet tortor a erat blandit accumsan.</p>
+              <br>
+              <p class="text-overflow"> Nam ac nulla vel ante ultricies tincidunt at ac
+              velit et egestas nulla. Vivamus aliquam, est  eu ultrices tempus, nibh sapien accumsan ipsum, ut tristiqu.
+              Endisse et tincidunt velit, sapien accumsan ipsum, ut tristiqu eultricies tincidunt at ac velit.</p>
+            </div>
+            <img class="about-img" src="images/about.jpg">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Pricing -->
+    <div class="Pricing" id="Pricing">
+      <div class="pricing-first-half">
+        <div class="container">
+          <div class="row">
+            <div class="h1-underline">
+              <h1>PRICING</h1>
+              <div class="underline black"></div>
+            </div>
+            <div class="pricing-lists">
+              <div class="standard package col-lg-4 col-md-12 col-sm-12">
+                <h4>Standard Package</h4>
+                <h5>$2,000 USD</h5>
+                <ul>
+                  <li>8 hours coverage <br> by Christopher Stair</li>
+                  <li>500 premium edited images <br> delivered </li>
+                  <li>Permanent Private Online <br> Gallery Access </li>
+                </ul>
+              </div>
+              <div class="gold package col-lg-4 col-md-12 col-sm-12">
+                <h4>Gold Package</h4>
+                <h5>$3,000 USD</h5>
+                <ul>
+                  <li>10 hours coverage <br> by Christopher Stair <br> and a Second Photographer</li>
+                  <li>24-page 6x8 flush-mount album</li>
+                  <li>750 premium edited images <br> delivered</li>
+                  <li>Permanent Private Online <br> Gallery Access</li>
+                </ul>
+              </div>
+              <div class="deluxe package col-lg-4 col-md-12 col-sm-12">
+                <h4>Deluxe Package</h4>
+                <h5>$4,000 USD</h5>
+                <ul>
+                  <li>Full-day Wedding coverage <br> by Christopher Stair <br> and a Second Photographer</li>
+                  <li>Engagement session with a <br> 24-page 11x14 flush-mount album <br> delivered before your wedding date</li>
+                  <li>All of the Digital Negatives</li>
+                  <li>1000 premium edited images <br> delivered</li>
+                  <li>Permanent Private Online <br> Gallery Access</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+          <div class="pricing-second-half">
+            <div class="container">
+              <div class="row">
+                <div class="editing-container col-lg-12 col-md-12">
+                  <h4>Premium Editing Guaranteed</h4>
+                  <div class="slider-box col-lg-12 col-md-12">
+                    <iframe frameborder="0" class="bigscreen juxtapose" width="95%" height="720" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=e6ef5aee-4ee1-11ea-b9b8-0edaf8f81e27"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- Contact -->
+    <div class="Contact" id="Contact">
+      <div class="h1-underline">
+        <h1>CONTACT</h1>
+
+        <!-- Email Notification -->
+        <div id="messages" style="position: absolute; left: 70%; color: #FAFAFA; background-color: #333333; border-color: #FF00FF; padding: 8px 30px 0 0;" class="hide" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div id="messages_content"></div>
+        </div>
+
+        <div class="underline white"></div>
+      </div>
+        <div class="contact-container">
+          <h5 class="friendly-statement">Want to work together or have a question?</h5>
+          <form id="contact-form" class="gform contact-boxes col-lg-12 col-md-12" method="POST" action="https://script.google.com/macros/s/AKfycbw0n4SpLgbPWpIZ28STt6Q9MCEg8Jy_oiwRc833NjfMmzOfr-g/exec"
+          data-email="ytrevor81@gmail.com">
+            <section class="input-group input-group-lg">
+              <span class="input-group-addon" id="name"><i class="fa fa-user"></i></span>
+              <input type="text" name="name" id="name" class="form-control" aria-describedby="name" placeholder="Full Name">
+            </section>
+            <section class="input-group input-group-lg">
+              <span class="input-group-addon" id="Email"><i class="fa fa-envelope"></i></span>
+              <input type="text" name="email" id="email" class="form-control" aria-describedby="Email" placeholder="Email Address">
+            </section>
+            <section class="input-group input-group-lg">
+              <span class="input-group-addon" id="Subject"><i class="fa fa-comment"></i></span>
+              <input type="text" class="form-control" aria-describedby="Subject" placeholder="Subject">
+            </section>
+            <textarea rows="5" cols="80" name="message" id="message" class="form-control" placeholder="Write your message here..."></textarea>
+            <button type="submit" id="send-btn" class="contact-btn button">Send</button>
+          </form>
+        </div>
+        <footer class="col-lg-12 col-md-12">
+          <div class="contact-info">
+            <div class="info">
+              <div class="return">
+                <a href="#Landing"><i class="fa fa-chevron-up fa-2x"></i></a>
+                <h5>BACK TO TOP</h5>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <i class="fa fa-phone fa-2x"></i><h5>+1 (510) 213-8193</h5>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <i class="fa fa-envelope fa-2x"></i><h5>christopherstair@gmail.com</h5>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <a target="_blank" title="Facebook Profile" href="https://www.facebook.com/staireogram/"><i class="fa fa-facebook fa-2x"></i></a>
+                <a target="_blank" title="Facebook Profile" href="https://www.facebook.com/staireogram/"><h5>Christopher Stair Photography</h5></a>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <a target="_blank" title="Instagram Profile" href="https://www.instagram.com/chris_stair/"><i class="fa fa-instagram fa-2x"></i></a>
+                <a target="_blank" title="Instagram Profile" href="https://www.instagram.com/chris_stair/"><h5>chris_stair</h5></a>
+              </div>
+            </div>
+          </div>
+          <h5 class="copy">&copy; 2019 - Chris Stair Photography </h5>
+          <h5 class="creator">Designed & Built by <a href="#">Trevor Youngquist</a></h5>
+        </footer>
+      </div>
+
+      <!-- Email Notification
+      <div style="display: none;" class="email-alert alert" role="alert">
+        Email Sent
+        <button type="button" class="email-alert-button close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div> -->
+
+
+        <!-- Gallery Modals: Travel, Portraits, and Weddings -->
+
+        <!-- Travel Modal -->
+        <div class="travel-pics modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <!-- Travel Gallery BEGINS -->
+              <section class="travel-modal">
+                <div class="container">
+                  <div class="travel-image-gallery">
+                    <div class="row">
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/necklady.jpg"><img src="images/travel/necklady.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/pagoda.jpg"><img src="images/travel/pagoda.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/monkeypicnic.jpg"><img src="images/travel/monkeypicnic.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/ricefarm.jpg"><img src="images/travel/ricefarm.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/bridge.jpg"><img src="images/travel/bridge.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/curiousjapan.jpg"><img src="images/travel/curiousjapan.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/monktemple.jpg"><img src="images/travel/monktemple.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/chiangmai.jpg"><img src="images/travel/chiangmai.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/tower.jpg"><img src="images/travel/tower.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/pagoda2.jpg"><img src="images/travel/pagoda2.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/jungletemple.jpg"><img src="images/travel/jungletemple.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/blackmonkey.jpg"><img src="images/travel/blackmonkey.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/loykrathong.jpg"><img src="images/travel/loykrathong.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                          <a href="images/travel/train.jpg"><img src="images/travel/lonelywoman.jpg" class="img-responsive"></a>
+                          <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                        <a href="images/travel/dogblack.jpg"><img src="images/travel/dogblack.jpg" class="img-responsive"></a>
+                        <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                        <a href="images/travel/busystreet_gallery.jpg"><img src="images/travel/busystreet_gallery.jpg" class="img-responsive"></a>
+                        <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                        <a href="images/travel/widetemple_md.jpg"><img src="images/travel/widetemple_md.jpg" class="img-responsive"></a>
+                        <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                        <a href="images/travel/pondwide_md.jpg"><img src="images/travel/pondwide_md.jpg" class="img-responsive"></a>
+                        <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                        <a href="images/travel/travel_md.jpg"><img src="images/travel/travel_md.jpg" class="img-responsive"></a>
+                        <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                        <a href="images/travel/train.jpg"><img src="images/travel/train.jpg" class="img-responsive"></a>
+                        <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="travel-img-wrapper">
+                        <a href="images/travel/sunset.jpg"><img src="images/travel/sunset.jpg" class="img-responsive"></a>
+                        <div class="travel-img-overlay"></div>
+                        </div>
+                      </div>
+                    </div><!-- End row -->
+                  </div><!-- End image gallery -->
+                </div><!-- End container -->
+              </section>
+              <!-- Travel Gallery ENDS -->
+            </div>
+          </div>
+        </div>
+        <!-- Travel Modal Ends -->
+
+        <!-- Portraits Modal -->
+        <div class="portraits-pics modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <!-- Portraits Gallery BEGINS -->
+              <section class="portraits-modal">
+                <div class="container">
+                  <div class="portraits-image-gallery">
+                    <div class="row">
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/solmotorcycle.jpg"><img src="images/portraits/solmotorcycle.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/solpainting.jpg"><img src="images/portraits/solpainting.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/elvis.jpg"><img src="images/portraits/elvis.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/stare.jpg"><img src="images/portraits/stare.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/watch.jpg"><img src="images/portraits/watch.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/afro.jpg"><img src="images/portraits/afro.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/meblackwhite.jpg"><img src="images/portraits/meblackwhite.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/solflare.jpg"><img src="images/portraits/solflare.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/solgym.jpg"><img src="images/portraits/solgym.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/smallbeard.jpg"><img src="images/portraits/smallbeard.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                          <a href="images/portraits/bigbeard.jpg"><img src="images/portraits/bigbeard.jpg" class="img-responsive"></a>
+                          <div class="portraits-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                        <a href="images/portraits/solcar.jpg"><img src="images/portraits/solcar.jpg" class="img-responsive"></a>
+                        <div class="portraits-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="portraits-img-wrapper">
+                        <a href="images/portraits/wideme.jpg"><img src="images/portraits/wideme.jpg" class="img-responsive"></a>
+                        <div class="portraits-img-overlay"></div>
+                        </div>
+                      </div>
+                    </div><!-- End row -->
+                  </div><!-- End image gallery -->
+                </div><!-- End container -->
+              </section>
+              <!-- Portraits Gallery ENDS -->
+            </div>
+          </div>
+        </div>
+        <!-- Portraits Modal Ends -->
+
+        <!-- Weddings Modal -->
+        <div class="weddings-pics modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <!-- Weddings Gallery BEGINS -->
+              <section class="weddings-modal">
+                <div class="container">
+                  <div class="weddings-image-gallery">
+                    <div class="row">
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="weddings-img-wrapper">
+                          <a href="images/weddings/horizon.jpg"><img src="images/weddings/horizon.jpg" class="img-responsive"></a>
+                          <div class="weddings-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="weddings-img-wrapper">
+                          <a href="images/weddings/dance.jpg"><img src="images/weddings/dance.jpg" class="img-responsive"></a>
+                          <div class="weddings-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="weddings-img-wrapper">
+                          <a href="images/weddings/doorway.jpg"><img src="images/weddings/doorway.jpg" class="img-responsive"></a>
+                          <div class="weddings-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="weddings-img-wrapper">
+                          <a href="images/weddings/sunset.jpg"><img src="images/weddings/sunset.jpg" class="img-responsive"></a>
+                          <div class="weddings-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="weddings-img-wrapper">
+                          <a href="images/weddings/earring.jpg"><img src="images/weddings/earring.jpg" class="img-responsive"></a>
+                          <div class="weddings-img-overlay"> </div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="weddings-img-wrapper">
+                        <a href="images/weddings/group.jpg"><img src="images/weddings/group.jpg" class="img-responsive"></a>
+                        <div class="weddings-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="weddings-img-wrapper">
+                        <a href="images/weddings/smooch.jpg"><img src="images/weddings/smooch.jpg" class="img-responsive"></a>
+                        <div class="weddings-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="weddings-img-wrapper">
+                        <a href="images/weddings/men_md.jpg"><img src="images/weddings/men_md.jpg" class="img-responsive"></a>
+                        <div class="weddings-img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                        <div class="weddings-img-wrapper">
+                        <a href="images/weddings/flowers_md.jpg"><img src="images/weddings/flowers_md.jpg" class="img-responsive"></a>
+                        <div class="weddings-img-overlay"></div>
+                        </div>
+                      </div>
+                    </div><!-- End row -->
+                  </div><!-- End image gallery -->
+                </div><!-- End container -->
+              </section>
+              <!-- Weddings Gallery ENDS -->
+            </div>
+          </div>
+        </div>
+        <!-- Weddings Modal Ends -->
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script data-cfasync="false" src="js/email.js"></script>
+
+
+  </body>
+</html>
