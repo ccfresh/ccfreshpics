@@ -155,6 +155,7 @@
 
 @media screen and (max-width: 500px) {
   .image-grid { width: 58%; left: 28%; }
+    .Pricing iframe { height: 245px; }
  }
 
 @media screen and (max-width: 400px) {
