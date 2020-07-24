@@ -40,7 +40,7 @@ h1 { font-size: 50px; }
 /* --- Landing Page --- */
 
 .Landing {
-  /*background-image: url(../images/travel/widetemple.jpg);*/
+  background-image: url(../images/travel/widetemple.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
