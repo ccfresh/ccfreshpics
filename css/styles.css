@@ -40,7 +40,7 @@ h1 { font-size: 50px; }
 /* --- Landing Page --- */
 
 .Landing {
-  background-image: url(../images/travel/widetemple.jpg);
+  /*background-image: url(../images/travel/widetemple.jpg);*/
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -240,7 +240,6 @@ footer .creator a:hover { color: #FF00FF; transition: 0.3s; text-decoration: non
 
 @keyframes backgroundslide {
   0%, 100% {   background-image: url(../images/travel/widetemple.jpg); }
-  25% {   background-image: url(../images/weddings/men.jpg); }
-  50% {   background-image: url(../images/travel/pondwide.jpg); }
-  75% {   background-image: url(../images/travel/treeface.jpg); }
+  33% {   background-image: url(../images/travel/pondwide.jpg); }
+  66% {   background-image: url(../images/weddings/men.jpg); }
 }
