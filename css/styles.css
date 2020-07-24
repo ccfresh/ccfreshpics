@@ -94,7 +94,7 @@ h1 { font-size: 50px; }
 .Gallery h1 { color: #FAFAFA; margin-top: 75px; }
 
 .Gallery .travel {
-            background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/travel/travel_bg.jpg);
+            background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/travel/treeface.jpg);
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
@@ -207,7 +207,7 @@ h1 { font-size: 50px; }
 
 /* --- Contact --- */
 
-.Contact {  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/travel/treeface.jpg);
+.Contact {  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/travel/pondwide.jpg);
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
@@ -237,9 +237,3 @@ footer .copy { font-size: 18px; margin-top: 50px; }
 footer .creator { font-size: 18px; margin-top: 15px; }
 footer .creator a { color: #FAFAFA; text-decoration: underline; }
 footer .creator a:hover { color: #FF00FF; transition: 0.3s; text-decoration: none; }
-
-@keyframes backgroundslide {
-  0%, 100% {   background-image: url(../images/travel/widetemple.jpg); }
-  33% {   background-image: url(../images/travel/pondwide.jpg); }
-  66% {   background-image: url(../images/weddings/men.jpg); }
-}
