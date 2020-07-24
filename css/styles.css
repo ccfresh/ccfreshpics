@@ -94,7 +94,7 @@ h1 { font-size: 50px; }
 .Gallery h1 { color: #FAFAFA; margin-top: 75px; }
 
 .Gallery .travel {
-            background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/travel/bali_background.jpg);
+            background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/travel/travel_bg.jpg);
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
