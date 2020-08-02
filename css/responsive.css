@@ -148,6 +148,11 @@
   .about-text { width: 100%; text-align: left; }
 
   .Pricing .package { width: 80%; }
+  .Pricing .pricing-second-half { background-color: #E5E5E5; }
+  .Pricing .editing-container h4 { color: #333333; }
+
+
+  .Pricing .slider-box { border: 1px solid #333333; }
   .Pricing iframe { height: 300px; }
 
   .Contact .friendly-statement { font-size: 16px; }
